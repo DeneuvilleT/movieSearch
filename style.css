@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background-image: url('/img/cine.jpg');
+    background-attachment: fixed;
+}
+
+h1 {
+    display: flex;
+    background: fixed;
+    background-image: url('/img/movie.jpg');
+    height: 200px;
+    font-size: 10rem;
+    color: rgb(245, 0, 0);
+    font-family: 'Open Sans';
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-shadow: 9px 4px rgb(0, 0, 0);
+}
+
+article {
+    display: inline-block;
+    max-width: 500px;
+    padding: 2px 20px;
+    margin: 25px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12), 0 14px 20px rgba(0, 0, 0, 0.24);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(126, 126, 126, 1) 53%, rgba(0, 0, 0, 1) 100%);
+}
+
+article img {
+    max-width: 500px;
+    max-height: 750px;
+}
+
+article p,
+article details,
+article h3 {
+    margin: 10px;
+}
+
+main {
+    margin: 75px auto;
+    text-align: center;
+}
+
+div {
+    background: rgb(136, 136, 136);
+    background: radial-gradient(circle, rgba(136, 136, 136, 1) 0%, rgba(126, 126, 126, 1) 7%, rgba(0, 0, 0, 1) 100%);
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    height: auto;
+}
+
+#searchInput {
+    width: 500px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 12px;
+}
